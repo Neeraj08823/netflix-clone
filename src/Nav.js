@@ -20,10 +20,14 @@ function Nav() {
     <div className={`nav ${show && "nav_black"}`}>
       <img
         className="nav_logo"
-        src="../Image/netflix logo.png"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png"
         alt="Netflix Logo"
       />
-      <img className="nav_avatar" src="../Image/man.png" alt="Avatar Logo" />
+      <img
+        className="nav_avatar"
+        src="https://cdn-icons.flaticon.com/png/512/2202/premium/2202112.png?token=exp=1655388252~hmac=61e1061e7f2d0712e144c2d2f9250272"
+        alt="Avatar Logo"
+      />
     </div>
   );
 }
