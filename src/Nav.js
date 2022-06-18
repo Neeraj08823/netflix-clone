@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Nav.css";
+import man from "./Image/man.png";
 
 function Nav() {
   const [show, handleShow] = useState(false);
@@ -23,11 +24,7 @@ function Nav() {
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png"
         alt="Netflix Logo"
       />
-      <img
-        className="nav_avatar"
-        src="https://cdn-icons.flaticon.com/png/512/2202/premium/2202112.png?token=exp=1655388252~hmac=61e1061e7f2d0712e144c2d2f9250272"
-        alt="Avatar Logo"
-      />
+      <img className="nav_avatar" src={man} alt="Avatar Logo" />
     </div>
   );
 }
